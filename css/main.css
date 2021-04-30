@@ -476,9 +476,104 @@ textarea {
   }
 
 
-}
+
 @media only screen and (min-width:1200px){
   /*desktop styles here*/
+  .content-wrapper{
+    max-width:960px;
+    
+  }
+  header,footer{
+    width:100%;
+  }
+  header{
+    justify-content:space-around;
+    padding:33px 0;
+  }
+  header .content-wrapper{
+    width:100%;
+    justify-content: space-between;
+  }
+  
+  img{
+    width:20%;
+  }
+  header nav{
+    width:13%;
+  }
+  header nav ul{
+    display:flex;
+    justify-content:space-between;
+    
+  }
+  .header-divider{
+    display:none;
+  }
+  /*hero area*/
+  .hero-area h1{
+    width:60%;
+  }
+  /*aside*/
+
+  aside .content-wrapper{
+    justify-content: space-around;
+    
+  }
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+      width: 30%;
+      
+    
+  }
+  /*features*/
+  .features h2{
+    width:90%;
+  }
+
+  .features article{
+    flex-basis:33%;
+  }
+  
+
+  /*reviews*/
+
+
+  }
+  .reviews article div{
+    width:42%;
+  }
+  footer .content-wrapper{
+    width:65%;
+    margin:100px 0;
+  }
+  .footer-content{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+  }
+  footer .contact{
+    margin-bottom:0;
+  }
+  footer .copyright{
+    width:100%;
+  }
+  /*about page*/
+
+  .mission h2,
+  .contact-section .content-wrapper h2{
+    width:95%;
+    
+  }
+  
+
+  /*faq page*/
+
+  
+  .faq h2{
+    width:100%;
+  }
+
+
 }
 /* ==========================================================================
    Print styles.
@@ -554,4 +649,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-

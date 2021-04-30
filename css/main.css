@@ -88,10 +88,49 @@ textarea {
    Author's custom styles
    ========================================================================== */
    /*****header-footer*******/
+   html{
+     font-size:16px;
+   }
    body{
-     font-family:'Poppings', sans serif;
+     font-family:'Open Sans', sans-serif;
+     font-size:1em;
+     line-height: 25px;
+     text-align:left;
 
    }
+   
+   ul,ol{
+     list-style-type: none;
+   }
+   a{
+     color:#e2e3ed;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-weight: 700;
+   }
+   h2{
+    font-family:'Poppins',sans-serif;
+    font-size:1.875em;
+  }
+  h3,
+  h4{
+    font-family:'Poppins', sans-serif;
+    margin:20px 0;
+    font-size:1.125em;
+  }
+  p{
+    font-size:.875em;
+    line-height:1.285;
+  }
+   address{
+     font-style:normal;
+
+   }
+   .content-wrapper{
+     width:90%;
+     margin:50px 0;
+   }
+/*******base styles*******/
    header,
    footer{
      display:flex;
@@ -115,7 +154,7 @@ textarea {
 
    }
    img{
-     width:60%;
+     width:100%;
      height:auto;
      display:flex;
      justify-content: center;
@@ -144,6 +183,9 @@ textarea {
       justify-content:space-around;
     
     }
+    header nav ul li{
+      list-style-type: none;
+    }
    footer{
      flex-direction:column;
    }
@@ -156,6 +198,9 @@ textarea {
    }
    footer .contact{
      margin-bottom:50px;
+   }
+   footer .contact address{
+     font-style: italic;
    }
    footer .social-icons{
      display:flex;
@@ -202,7 +247,7 @@ textarea {
   margin:30px 0;
 
 }
-.features .feature-items{
+.features .features-items{
    display:flex;
    justify-content: center;
    align-items: center;
@@ -216,6 +261,7 @@ textarea {
  .reviews{
    display:flex;
    justify-content: center;
+   align-items:center;
    flex-flow: row wrap;
  }
  .reviews h2{

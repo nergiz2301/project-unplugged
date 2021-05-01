@@ -217,11 +217,14 @@ textarea {
   display:flex;
   justify-content: center;
   flex-flow:row wrap;
-
+  background:url("../img/jake-melara-30679-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
  }
  .hero-area h1{
    font-size: 2.25em;
-   color:#222;
+   color:#fff;
    font-family: 'Poppins',sans-serif;
    font-weight: 500;
    line-height: 1.2;

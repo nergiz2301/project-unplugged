@@ -127,6 +127,12 @@ textarea {
      font-style:normal;
 
    }
+   img{
+     width:100%;
+   }
+   figure{
+     margin:0;
+   }
    .content-wrapper{
      width:90%;
      margin:50px 0;
@@ -150,12 +156,11 @@ textarea {
      justify-content: center;
      align-items:center;
      flex-flow:row wrap;
-     width:88%;
      margin:0;
 
    }
-   img{
-     width:100%;
+   header figure{
+     width:60%;
      height:auto;
      display:flex;
      justify-content: center;
@@ -175,7 +180,7 @@ textarea {
      justify-content:space-around;
      align-items: center;
      width:60%;
-     padding:10px;
+     font-size: 1.125em;
      
     }
     header nav ul{
@@ -241,14 +246,20 @@ textarea {
    font-size: 1.3rem;
  }
  .features{
+   background:url("../img/rawpixel-800820-unsplash1.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
    display:flex;
    justify-content:center;
    flex-flow:row wrap;
+   color:#fff;
  }
  .features h2{
    margin-bottom:60px;
    line-height:35px;
    font-size:2em;
+   
  }
  
  .features article{
@@ -272,6 +283,8 @@ textarea {
    justify-content: center;
    align-items:center;
    flex-flow: row wrap;
+   background-color: #527158;
+   color:#fff;
  }
  .reviews h2{
    margin-bottom:40px;
@@ -281,6 +294,7 @@ textarea {
    width:55%;
    margin:20px 0;
  }
+ 
  
  
 
@@ -569,6 +583,19 @@ input[type=button] {
     max-width:960px;
     
   }
+  h2 {
+    font-size: 2.25em;
+  }
+
+  h3,
+  h4 {
+      font-size: 1.875em;
+  }
+
+  p {
+      font-size: 1.125em;
+      line-height: 1.333;
+  }
   header,footer{
     width:100%;
   }
@@ -627,6 +654,12 @@ input[type=button] {
   }
   .reviews article div{
     width:42%;
+  }
+  .reviews h2 {
+    padding-bottom: 50px;
+  }
+  footer h4 {
+    font-size: 1.875em;
   }
   footer .content-wrapper{
     width:65%;
